@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <title>2023 - 2024</title>
+    <link rel="stylesheet" href="../css/text-effects.css">
+</head>
+<body>
+    <section class="banner">
+        <h2 >2024</h2>
+    </section>
+    <section class="content">
+        <h2>2023</h2>
+    </section>
+    <div >
+        <a href="../index.html" class="exit-outline"><ion-icon name="exit-outline"></ion-icon></a>
+    </div>
+
+    <script>
+        let pos = document.documentElement;
+        pos.addEventListener("mousemove", e => {
+            pos.style.setProperty('--x', e.clientX+'px')
+            pos.style.setProperty('--y', e.clientY+'px')
+        })
+    </script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

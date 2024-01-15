@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    background-color: #000000;
+}
+a{
+    color: #95ff00;
+    text-shadow: 0px 0px 20px #ffff31;
+    font-family: sans-serif;
+    font-size: 50px;
+    visibility: visible;
+    
+}
+.box{
+    animation: move2 3s forwards ease-in-out;
+    border-left: 2px solid #fbff00;
+}
+@keyframes move2{
+    from{
+        margin-left: -410px;
+        width: 400px; 
+        
+        
+    }
+    to{
+        margin-left:0px;
+        width: 0px;
+
+        
+    }
+}
+.exit-outline i:hover{
+    color: #ff9900;
+}
+.exit-outline{
+    color: white;
+    font-size: 20px;
+}
