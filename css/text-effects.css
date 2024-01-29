@@ -41,19 +41,32 @@ body{
     font-size: 25vw;
     font-weight: bold;
 }
- div a ion-icon {
-    position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #09da37;
-    width: 200px;
-    height: 200px;
-    transition: scale 0.2s ease;
-    z-index: 2;
-    padding: 15px;
-}
-.exit-outline ion-icon:hover{
-    color: rgb(2, 2, 2);
 
+.header{
+    padding: 20px 40px;
+        
+    }
+.home{
+        background: transparent;
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        border-radius: 30px;
+        width: 120px;
+    }
+.home-svg{
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid ; */
+    border-radius: 30px;
+    fill: #ffffff;
+   margin-right: 10px;
+}
+.home-svg:hover{
+    fill: #e67e22;;
 }

@@ -5,16 +5,16 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     min-height: 100vh;
     background: url(../img/mountains.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .wrapper{
-    position: relative;
+    position: absolute;
     width: 420px;
     /* background: transparent; */
     background: transparent;
@@ -24,6 +24,9 @@ body{
     padding: 30px 40px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 .wrapper h1{
@@ -120,3 +123,31 @@ p a-link:hover {
     color: #fabc02;
 
 }
+.header{
+    padding: 20px 40px;
+        
+    }
+    .home{
+        background: transparent;
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        border-radius: 30px;
+        width: 120px;
+    }
+    .home-svg{
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        /* border: 2px solid ; */
+        border-radius: 30px;
+        fill: #ffffff;
+       margin-right: 10px;
+    }
+    .home-svg:hover{
+        fill: #e67e22;;
+    }

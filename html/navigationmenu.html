@@ -10,7 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/navigationmenu.css">
 </head>
+
 <body>
+    <header class="header">
+        <a href="../index.html" class="home">
+            <svg class="home-svg">
+                <use href="../svg/svg.svg#icon-arrow-left2"></use>
+            </svg></a>
+    </header>
+    <main>
     <div class="navigation">
         <ul>
             <li class="list active">
@@ -57,9 +65,7 @@
         </ul>
         
     </div>
-    <div >
-        <a href="../index.html" class="exit-outline"><ion-icon name="exit-outline"></ion-icon></a>
-    </div>
+</main>
     <script>
         const list = document.querySelectorAll('.list');
         function activeLink (){

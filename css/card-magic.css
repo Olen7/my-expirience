@@ -85,3 +85,31 @@ a{
     font-weight: bold;
     margin-top: 2rem;
 }
+.header{
+    padding: 20px 40px;
+        
+    }
+    .home{
+        background: transparent;
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        /* border: 2px solid; */
+        border-radius: 30px;
+        width: 120px;
+    }
+    .home-svg{
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        /* border: 2px solid ; */
+        border-radius: 30px;
+        fill: #ffffff;
+       margin-right: 10px;
+    }
+    .home-svg:hover{
+        fill: #e67e22;;
+    }

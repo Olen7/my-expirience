@@ -25,10 +25,16 @@ a{
     visibility: visible;
     
 }
+a:hover{
+    color: #e67e22;
+    text-shadow: 0px 0px 20px #a7a77f;
+    
+}
 .box{
     animation: move2 3s forwards ease-in-out;
     border-left: 2px solid #fbff00;
 }
+
 @keyframes move2{
     from{
         margin-left: -410px;

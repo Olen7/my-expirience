@@ -269,11 +269,4 @@ body.dark .switch::before{
     width: calc(100% - 88px);
     padding: 8px 40px;
 }
-.exit-outline i{
-    color: var(--text-color);
-    font-size: 40px;
-}
-.exit-outline i:hover{
-    color: #0905f0;
 
-}
