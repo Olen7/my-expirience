@@ -1,0 +1,39 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} */
+li{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+}
+body{
+    height: 100vh;
+    background-color: #D7C3A5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.hero-text{
+     font-size: 140px;
+     font-weight: 900;
+     text-align: center;
+     background: url(../img/mountains.jpg)0 0 / cover no-repeat;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
