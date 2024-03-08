@@ -88,3 +88,41 @@ ul{
 .item-skills a{
     color: #fff;
 }
+
+/* branching */
+
+.branching-body{
+    background-color: #f1916d;
+    padding: 20px 40px;
+}
+.branching-section{
+    margin-bottom: 10px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+input{
+    width: 120px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 12px;
+    border: none;
+    padding: 8px;
+}
+label{
+    margin-right: 10px;
+}
+button{
+    display: flex;
+    color: #fff;
+    background-color: #522b5b;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    height: 24px;
+    align-items: center;
+}
+.p-branching{
+     margin-left: 10px;
+     color: #fff;
+}

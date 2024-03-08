@@ -17,7 +17,10 @@ a{
 }
 .body{
     height: 100vh;
-    background: #87ceeb;
+    /* background: linear-gradient( #0057b8 50%, #ffd500 50%); */
+    /* background: #87ceeb ; */
+    background: #535878 ;
+    /* background: linear-gradient(to top, #000080 0%, #1E90FF 20%, #AEEEEE 40%, #FFFFFF 100%); */
     padding: 20px;
     display: flex;
     flex-direction: column;
