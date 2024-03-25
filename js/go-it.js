@@ -68,6 +68,7 @@ console.log("(0.1 + 0.2 === 0.3 )* 100 / 100:",(0.1 + 0.2  === 0.3) * 100 / 100)
 console.log("0.2 + 0.7 * 100 / 100:", 0.2 + 0.7 * 100 / 100);
 console.log("(0.2 + 0.7).toFixed(2):", (0.2 + 0.7).toFixed(2));
 console.log((0.17 + 0.24).toFixed(2)); // 0.41
+console.log(c * 1.15);
 
 const num0 = 1;
 const num1 = 1.2;

@@ -155,3 +155,130 @@ function getAndDisplayMinValue() {
     const outputElement = document.getElementById("minValueOutput");
     outputElement.innerText = `The minimum value is: ${minValue}.`;
 }
+
+
+
+function deysWeek(day){
+    switch (day) {
+            case 1:
+            return "Понеділок";
+            case 2:
+            return "Вівторок";
+            case 3:
+            return "Середа";
+            case 4:
+            return "Четвер";
+            case 5:
+            return "Пятниця";
+            case 6:
+            return "Субота";
+            case 7:
+            return "Неділя";
+        default:
+            return "Виберіть день неділі";
+    }
+}
+function studentScils(reting){
+    switch (reting) {
+        case 1:
+        return "Не здано";
+        case 2:
+        return "Не задовільно";
+        case 3:
+        return "Задовільно";
+        case 4:
+        return "Добре" ;
+        case 5:
+        return "Відміно";
+        default:
+            return "Вкажіть оцінку";
+    }
+}
+
+
+// Приклад виклику функції
+console.log(getQuarterName(5)); // Повинно вивести "2 квартал"
+
+function getQuarterName(monthNumber){
+    switch (Math.ceil(monthNumber / 3)) {
+        case 1:
+            return "1 квартал";
+        case 2:
+            return "2 квартал";
+        case 3:
+            return "3 квартал";
+        case 4:
+            return "4 квартал";
+        default:
+            return "Невідомий місяць"; 
+    }
+}
+
+
+function getMonthAndQuarter(monthNumber){
+    let monthName;
+    let quarter;
+    switch (Math.ceil(monthNumber / 3)) {
+        case 1:
+            quarter = "1 квартал";
+            break;
+            case 2:
+                quarter = "2 квартал";
+                break;
+                case 3:
+                quarter = "3 квартал";
+                break;
+                case 4:
+                quarter = "4 квартал";
+                break;
+                default:
+                    quarter = "Невідомий квартал";
+                    break;
+    }
+    switch (monthNumber) {
+        case 1:
+            monthName = "Січень";
+            break;
+        case 2:
+            monthName = "Лютий";
+            break;
+        case 3:
+            monthName = "Березень";
+            break;
+        case 4:
+            monthName = "Квітень";
+            break;
+        case 5:
+            monthName = "Травень";
+            break;
+        case 6:
+            monthName = "Червень";
+            break;
+        case 7:
+            monthName = "Липень";
+            break;
+        case 8:
+            monthName = "Серпень";
+            break;
+        case 9:
+            monthName = "Вересень";
+            break;
+        case 10:
+            monthName = "Жовтень";
+            break;
+        case 11:
+            monthName = "Листопад";
+            break;
+        case 12:
+            monthName = "Грудень";
+            break;
+        default:
+            monthName = "Невідомий місяць";
+            break;
+    }
+    return `${monthName}, ${quarter}`;
+}
+
+const str = 'absdt';
+const value = str.replace('a', 'A');
+console.log(value)

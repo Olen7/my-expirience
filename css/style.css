@@ -75,6 +75,9 @@ ul{
 .item-skills:nth-child(10){
     background: #2b124c;
 }
+.item-skills:nth-child(11){
+    background: #80ed99;
+}
 .item-skills:hover{
     background: #e67e22}
 .item-skills a{
