@@ -302,3 +302,68 @@ if (temperature < 0) {
 }
 
 console.log(message8);
+
+
+//        Інструкція switch
+
+
+// Завдання 1: День тижня
+// Напишіть програму, що приймає число від 1 до 7 та виводить день тижня відповідно до числа 
+// (1 — Понеділок, 7 — Неділя) за допомогою switch.
+const day1 = 1;
+let message9;
+switch (day1) {
+        case 1:
+        message9 = "Понеділок"
+        break;
+        case 2:
+        message9 = "Вівторок"
+        break;
+        case 3:
+        message9 = "Середа"
+        break;
+        case 4:
+        message9 = "Четверг"
+        break;
+        case 5:
+        message9 = "Пятниця"
+        break;
+        case 6:
+        message9 = "Субота"
+        break;
+        case 7:
+        message9 = "Неділя"
+        break;
+
+    default:
+        message9 = "Виберіть день"
+        break;
+}
+console.log(message9);
+
+// Завдання 2: Оцінювання
+// Напишіть програму, що конвертує числову оцінку (від 1 до 5) у словесний еквівалент 
+// (1 — "Погано", 5 — "Відмінно") за допомогою switch.
+const rating = 5;
+let message10;
+switch (rating) {
+    case 1:
+        message10 = "Погано";
+        break;
+    case 2:
+        message10 = "Задовільно"
+        break;
+    case 3:
+        message10 = "Добре"
+        break;
+    case 4:
+        message10 = "Дуже добре"
+        break;
+    case 5:
+        message10 = "Відмінно"
+        break;
+    default:
+        message10 = "Виберіть оцінку"
+        break;
+}
+console.log(message10);
